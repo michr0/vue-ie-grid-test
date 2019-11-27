@@ -1,5 +1,5 @@
 {
-  "name": "asd",
+  "name": "ie-grid-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -36,6 +36,14 @@
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions"
-  ]
+    "last 2 versions",
+    "ie 11"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "grid": true
+      }
+    }
+  }
 }
